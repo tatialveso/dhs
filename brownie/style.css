@@ -1,0 +1,72 @@
+html * {
+    margin: 0px;
+    max-width: 100%;
+}
+
+body {
+    background-color: #111111;
+}
+
+#logotipo {
+    width: 300px;
+    margin: 20px;
+}
+
+#menu {
+    background-color: #7c3f00;
+    border-top: 10px solid 	#492201;
+    border-bottom: 10px solid 	#492201;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+#menu a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+#menu a:hover {
+    background-color: #492201;
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px 60px;
+}
+
+.item {
+    background-color: #f9b384;
+    text-align: center; 
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border-top: 5px solid #492201;
+    border-radius: 1%;
+}
+
+img {
+    transition: width 2s;
+}
+
+img:hover {
+    width: 200px;
+    align-content: center;
+}
+
+.rodape {
+    background-color: #7c3f00;
+    height: 100px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
