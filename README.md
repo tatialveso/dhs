@@ -13,3 +13,5 @@ html básico com css para entender o conceito de modelo de caixa.
 projeto criado junto com os alunos para treinar conceitos e entender como se cria um site do zero.
 #### grid
 pequeno projeto criado junto com os alunos para entender o funcionamento de grid dentro de um site.
+#### menu-grid
+atividade desenvolvida para exemplificar o conteúdo de grid dentro de uma navegação.
