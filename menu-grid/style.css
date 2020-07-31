@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: #5D567F;
+    color: #FFFFFF;
+    font-family: monospace;
+}
+
+header {
+    text-align: center;
+    padding: 150px 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+nav {
+    background-color: #D2B4C0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+nav a {
+    padding: 20px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.primeira:hover {
+    background-color: #DB8DC1;
+}
+
+.segunda:hover {
+    background-color: #63D3DF;
+}
+
+.terceira:hover {
+    background-color: #808CD6;
+}
