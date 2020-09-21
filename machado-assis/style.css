@@ -1,0 +1,55 @@
+/* estrutura básica do css:
+seletor do html {
+    propriedade do css: valor;
+}
+*/
+
+/* o símbolo * significa tudo, a página inteira*/
+* {
+    font-family: monospace; /* font-family determina o tipo de fonte da letra */
+    margin: 0; /* margin define a área de margem dos quatro lados do elemento */
+}
+
+h1 {
+    background-color: #202739; /* background-color muda a cor do fundo do elemento selecionado */
+    color: #ffffff; /* color muda a cor do texto */
+    padding: 20px; /* padding define a distância entre o conteúdo do elemento e a borda do elemento */
+    text-align: center; /* text-align determina o alinhamento do texto */
+}
+
+img {
+    width: 100%; /* width determina a largura da imagem */
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 10px; /* margin-top só colocará margem no topo do elemento */
+}
+
+p, ul {
+    font-size: 16px; /* font-size muda o tamanho da fonte do texto */
+}
+
+a {
+    text-decoration: none; /* text-decoration determina se o texto estará sublinhado ou não */
+    color:#202739;
+    font-weight: bold; /* font-weight determina se o texto será em negrito ou não */
+}
+
+/* o :hover é um pseudo-seletor e serve
+para mudar as propriedades de um elemento
+quando nós passar o mouse em cima do elemento */
+a:hover {
+    color: #ffffff;
+    background-color: #202739;
+}
+
+/* o estilo desse botão é diferente do estilo da tag <a> no meio do texto */
+.saiba-mais {
+    margin: 10px 40%;
+    padding: 10px;
+    border: 1px solid #202739;
+}

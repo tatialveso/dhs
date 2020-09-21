@@ -1,0 +1,31 @@
+/* APLICAR PARA TODOS OS ELEMENTOS */
+html * {
+    margin: 0;
+}
+
+/* TÍTULO */
+h1 {
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+/* IMAGEM */
+img {
+    width: 100%;
+}
+
+/* TEXTO */
+p { font-size: 28px; 
+    text-align: justify;
+}
+
+/* LINK */
+a {
+    /* REMOVER SUBLINHADO DO LINK */
+    text-decoration: none;
+    color: blue;
+}
+
+
+
